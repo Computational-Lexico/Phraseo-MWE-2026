@@ -2165,3 +2165,62 @@ table.dates td:first-child {
 }
 
 
+
+
+
+
+
+
+
+
+
+/* ===== DROPDOWN MENU FOR NAV (Publications) ===== */
+
+#nav {
+  display: flex;
+  align-items: center;
+  gap: 0; /* 模板本来就靠 padding 控制间距 */
+}
+
+/* dropdown wrapper */
+#nav .nav-dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* submenu box */
+#nav .nav-submenu {
+  display: none;
+  position: absolute;
+  top: 86px;              /* 和 header 高度对齐（你的模板 header 高 86px） */
+  left: 0;
+  min-width: 280px;
+  background: #007b9d;    /* 跟 header 同色，可换 */
+  border: 1px solid rgba(255,255,255,0.25);
+  border-radius: 10px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.2);
+  z-index: 9999;
+  padding: 10px 0;
+}
+
+/* submenu links */
+#nav .nav-submenu a {
+  display: block;
+  padding: 12px 18px;
+  color: #fff;
+  text-decoration: none;
+  line-height: 1.2em;
+  white-space: nowrap;
+}
+
+/* hover effect */
+#nav .nav-submenu a:hover {
+  background: rgba(255,255,255,0.12);
+}
+
+/* show submenu on hover */
+#nav .nav-dropdown:hover .nav-submenu {
+  display: block;
+}
+
+
