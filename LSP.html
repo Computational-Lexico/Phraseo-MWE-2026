@@ -100,7 +100,8 @@ Phraseology, multi word expressions, neology, LLMs, NLP, and AI
     <p>These expressions often exhibit a paradoxical combination of lexical fixity and semantic dynamism, making them difficult to detect, annotate, and model automatically.</p>
    <p> To better situate phraseological neologisms within broader processes of lexical innovation, it is first necessary to clarify what is meant by neologism in linguistic theory.</p>
    <p> The Oxford Dictionary of English defines a neologism as “a newly coined word or expression” (Soanes & Stevenson, 2005: 1179), while Webster’s Third New International Dictionary adopts a broader perspective, referring to “a new word, usage, or expression” (Gove et al., 1993: 1516), thereby explicitly integrating the notion of usage. Neologisms reflect ongoing social and cultural change and constitute a key indicator of linguistic vitality, as illustrated by recent lexical innovations such as teleworking, cryptocurrency, or generative artificial intelligence. As Crystal (1996: 73) notes, “the invention of new words is perhaps the most obvious way in which a language can exceed its existing resources.” Importantly, neology is not limited to the creation of new lexical items, but also encompasses innovative constructional patterns, morphological schemas, and shifts in grammatical categories.</p>
-   <p> From a Natural Language Processing (NLP) perspective, the detection and analysis of neologisms—often approached through the identification of unknown or out-of-vocabulary words—has been the object of several research initiatives. In the French context, projects such as EDyLex (Sagot & Nouvel 2013a ; 2013b) and the Néoveille platform have proposed methods for the automatic detection, linguistic characterization, and monitoring of lexical innovation in large corpora, combining rule-based and statistical approaches. More recently, projects such as NeoLex have sought to extend these approaches by integrating lexicographic modeling and ontological structuring of neological data, with a particular emphasis on Chinese and Vietnamese, two languages that remain underrepresented in existing neology-oriented NLP projects (Chen, Dao et al. 2025 ; Chen & Nouvel & Dao et al. 2026). At the European level, recent initiatives such as the COST Action ENEOLI (2024–2027) aim to structure research on lexical innovation by fostering collaboration between linguistic, sociological, and computational approaches. Despite these efforts, NLP research on neology remains largely focused on single-word units, and the systematic modeling of more complex phenomena—such as phraseological neologisms—still appears to be underdeveloped.</p>
+   <p> From a Natural Language Processing (NLP) perspective, the detection and analysis of neologisms—often approached through the identification of unknown or out-of-vocabulary words—has been the object of several research initiatives. In the French context, projects such as EDyLex (Sagot & Nouvel 2013a ; 2013b) and the Néoveille platform have proposed methods for the automatic detection, linguistic characterization, and monitoring of lexical innovation in large corpora, combining rule-based and statistical approaches. More recently, projects such as NeoLex have sought to extend these approaches by integrating lexicographic modeling and ontological structuring of neological data, with a particular emphasis on Chinese and Vietnamese, two languages that remain underrepresented in existing neology-oriented NLP projects (Chen, Dao et al. 2025 ; Chen & Nouvel & Dao et al. 2026). At the European level, recent initiatives such as the COST Action ENEOLI (2024–2027) aim to structure research on lexical innovation by fostering collaboration between linguistic, sociological, and computational approaches. Despite these efforts, NLP research on neology remains largely focused on single-word units, and the systematic modeling of more complex phenomena—such as phraseological neologisms—still appears to be underdeveloped. Recent work presented at the ACL Workshop on Multiword Expressions (MWE), including studies on neural identification, multilingual MWE detection, and large language model–based approaches, further highlights the growing interest in modeling MWEs in contemporary NLP (Baldwin et al. 2023; Barbu Mititelu et al. 2024; Hadj Mohamed et al. 2024; Kissane et al. 2024; De Leon 2025; Miletić et al. 2024; Savary et al. 2023).
+</p>
     <p>While neology in single-word units has been extensively studied, neology in phraseology and multiword expressions (MWEs) remains comparatively underexplored. Research has long demonstrated that phraseological fixedness is not static: under the influence of social, economic, and political change, idioms and fixed expressions may undergo significant formal and semantic transformations. Studies on défigement (Mejri 2013, Chen 2022) and variation have shown that phraseological units are subject to creative manipulation, contextual adaptation, and semantic reanalysis.</p>
     <p>For each phraseological unit, it is therefore crucial to identify not only a canonical (lemmatized) form, but also its possible variants, including conjugational patterns, agreement constraints, alternative spellings, and syntactic realizations. Particular attention must be paid to discontinuous or disjunctive realizations, in which the components of a multiword unit are separated in the sentence while preserving their idiomatic meaning. As illustrated by Polguère (2020), expressions such as poser un lapin à quelqu’un (“to stand someone up”) may appear in syntactic variants like At the good friends’ meeting, there were often no rabbits, while avoir la pêche (“to feel energetic”) may occur in elliptical realizations such as What energy this morning!. Such cases demonstrate that collocations and fixed expressions can surface in dislocated or truncated forms, a phenomenon well documented in phraseological studies.</p>
     <p>Phraseological innovation offers a privileged perspective on language change, shedding light on the interaction between lexical dependencies, semantic restructuring, usage frequency, and socio-cultural factors. While multiword expressions (MWEs) are widely acknowledged as central units of linguistic description and processing—encompassing idiomatic expressions, collocations, fixed phrases, support verb constructions, and named entities—their neological dynamics remain comparatively underexplored, particularly from a computational perspective (Sag et al., 2002; Gross, 1982, 1996).</p>
@@ -144,8 +145,120 @@ evaluation of emerging MWEs in large language models (LLMs) and generative syste
 
                         <hr />
 
-                        <h3>Bibliography</h3>
+                        <h3>Bibliography (selection)</h3>
 
+
+
+    <p>
+        Baldwin, T., Croft, W., Nivre, J., Savary, A., Stymne, S., et al. (2023).
+        Universals of linguistic idiosyncrasy in multilingual computational linguistics (Dagstuhl Seminar 23191).
+        <i>Dagstuhl Reports</i>, 13(5), 22–70.
+        https://doi.org/10.4230/DagRep.13.5.22
+    </p>
+
+      <p>
+        Barbu Mititelu, V., Giouli, V., Evang, K., Zeman, D., Osenova, P., Tiberius, C., 
+        Krek, S., Markantonatou, S., Stoyanova, I., Stanković, R., & Chiarcos, C. (2024).
+        Multiword expressions between the corpus and the lexicon: Universality, idiosyncrasy,
+        and the lexicon-corpus interface.
+        In <i>Proceedings of the Joint Workshop on Multiword Expressions and Universal Dependencies (MWE-UD) @ LREC-COLING 2024</i> (pp. 147–153).
+        ELRA & ICCL.
+     </p>
+  <p>  
+
+        Chen, L. (2025).
+        Modeling and structuring of a bilingual French–Chinese phraseological dictionary:
+        Neural automatic approach for ontology and lexicography.
+        In <i>eLex 2025: Electronic lexicography in the 21st century – Intelligent lexicography</i>
+        (pp. 830–851). Lexical Computing CZ.
+     </p>
+
+   <p>
+        Chen, L., Nouvel, D., Dao, H. L., & Delaporte, A. (2026).
+        Étude et détection automatique des néologismes en chinois et en vietnamien (2015–2025)
+        [Conference presentation, accepted].
+        <i>Lexiques – Lexicons – Lexik</i>, ATILF-CNRS, Université de Lorraine, Nancy, France.
+    </p>
+
+   <p>
+        Chen, L., Dao, H. L., Nouvel, D., & Delaporte, A. (2025).
+        Extraction automatique et modélisation lexicale des néologismes en chinois et en vietnamien
+        (2015–2025) : Le projet NeoLex.
+        <i>NLP & TAL – Traitement automatique des langues</i>, INALCO, 1–75.
+    </p>
+
+  <p>
+        Chiarcos, C., Ionov, M., Apostol, E.-S., Gkirtzou, K., Kabashi, B., Khan, A. F.,
+        & Truică, C.-O. (2024).
+        Multiword expressions, collocations and the OntoLex vocabulary.
+        In V. Giouli & V. Barbu Mititelu (eds.),
+        <i>Multiword expressions in lexical resources: Linguistic, lexicographic, and computational perspectives</i>
+        (pp. 187–227). Berlin: Language Science Press.
+        https://langsci-press.org/catalog/book/440
+    </p>
+
+  <p>
+        Constant, M. (n.d.).
+        Mettre les expressions multi-mots au cœur de l’analyse automatique de textes :
+        Sur l’exploitation de ressources symboliques externes
+        (Habilitation à diriger des recherches, Université Paris-Est).
+   </p>
+
+  <p>
+        Lombard, A., Huyghe, R., & Gygax, P. (2021).
+        Neological intuition in French: A study of formal novelty and lexical regularity as predictors.
+        <i>Lingua</i>, 254, Article 103055.
+    </p>
+
+    <p>
+        Kissane, H., Schilling, A., & Krauss, P. (2025).
+        Probing internal representations of multi-word verbs in large language models.
+        In <i>Proceedings of the 21st Workshop on Multiword Expressions (MWE 2025)</i>
+        (pp. 7–13). Association for Computational Linguistics.
+      </p>
+
+   <p>
+        Laureano De Leon, F. A., Abbas, A., Madabushi, H. T., & Lee, M. (2025).
+        Evaluating large language models on multiword expressions in multilingual and
+        code-switched contexts.
+        In <i>Proceedings of the 15th International Conference on Recent Advances in Natural Language Processing:
+        Natural Language Processing in the Generative AI Era</i> (pp. 644–653). INCOMA Ltd.
+    </p>
+
+   <p>
+        Mel’čuk, I. A. (2023).
+        <i>General phraseology: Theory and practice</i>.
+        John Benjamins.
+     </p>
+
+    <p>
+        Miletić, F., & Schulte im Walde, S. (2024).
+        Semantics of multiword expressions in transformer-based models: A survey.
+        <i>Transactions of the Association for Computational Linguistics</i>, 12, 593–612.
+   </p>
+
+     <p>
+        Savary, A., Liu, J., Pierredon, A., Antoine, J.-Y., & Grobol, L. (2023).
+        We thought the eyes of coreference were shut to multiword expressions and they mostly are.
+        <i>Journal of Language Modelling</i>, 11(1), 147–187.
+     </p>
+
+     <p>
+        Savary, A., Stymne, S., Barbu Mititelu, V., Schneider, N., Ramisch, C., et al. (2023).
+        PARSEME meets Universal Dependencies: Getting on the same page in representing
+        multiword expressions.
+        <i>Northern European Journal of Language Technology</i>, 9(1).
+        https://doi.org/10.3384/nejlt.2000-1533.2023.4453
+     </p>
+
+    <p>
+        Zilio, L., & Kabashi, B. (2024).
+        Using neural machine translation for normalising historical documents.
+        In <i>21st EURALEX International Congress: Lexicography and Semantics</i>,
+        Cavtat/Dubrovnik, Croatia.
+        http://euralex.org/wp-content/themes/euralex/proceedings/Euralex%202024/EURALEX2024_Pr_p827-839_Zilio-Kabashi.pdf
+     </p>
+</ul>
 
 <div style="text-align: justify;">
 
@@ -211,10 +324,12 @@ evaluation of emerging MWEs in large language models (LLMs) and generative syste
   
  
  <p>
-<strong>Mike Rosner</strong><br/>
+<strong>Mike Rosner</strong> (University of Malta, Msida) <br/>
 <a href="mailto:mike.rosner@um.edu.mt">mike.rosner@um.edu.mt</a><br/><br/>
 
-<strong>Petya Osenova</strong><br/>
+<strong>Petya Osenova</strong>(    Sofia University "St. Kliment Ohridski"
+
+Sofia, Bulgaria)<br/>
 <a href="mailto:petya@bultreebank.org">petya@bultreebank.org</a>
 </p>
             
@@ -225,19 +340,22 @@ evaluation of emerging MWEs in large language models (LLMs) and generative syste
   <hr />
 <section>
                         <h2>Important Dates</h2>
-                        <table class="dates">
-                            <tr><td>February 15, 2026</td><td>Opening of the call for papers</td></tr>
-                            <tr><td>May 30, 2026</td><td>Submission of abstracts by authors</td></tr>
-                            <tr><td>October 30, 2026</td><td>Submission of full chapters by authors</td></tr>
-                            <tr><td>April 30, 2027</td><td>Reviews returned</td></tr>
-                            <tr><td>June 30, 2027</td><td>Submission of the revised version by authors</td></tr>
-                            <tr><td>August 1, 2027</td><td>Final versions due</td></tr>
-                            <tr><td>December 2027</td><td>Expected publication</td></tr>
-                        </table>
-                    </section>
-                        </div>
-                    </section>
-                </div>
+<table class="dates">
+    <tr><td>February 20, 2026</td><td>Call for abstracts</td></tr>
+    <tr><td>May 30, 2026</td><td>Submission of abstracts</td></tr>
+    <tr><td>June 20, 2026</td><td>Editorial selection of abstracts</td></tr>
+    <tr><td>July 5, 2026</td><td>Notification of acceptance</td></tr>
+    <tr><td>December 30, 2026</td><td>Submission of full chapters</td></tr>
+    <tr><td>February 28, 2027</td><td>Return of reviewers’ reports</td></tr>
+    <tr><td>April 15, 2027</td><td>Submission of revised chapters (final version)</td></tr>
+    <tr><td>May 15, 2027</td><td>Final checks and bibliography compilation</td></tr>
+    <tr><td>June 1, 2027</td><td>Final volume submitted to Language Science Press</td></tr>
+</table>
+</section>
+    </div>
+</section>
+</div>
+
 
 
 
